@@ -1,7 +1,7 @@
 $(function(){
 
   function buildMessage(message){
-    image = ( message.image.url) ? `<img src = ${message.image.url} >` : "";
+    image = ( message.image.url) ? `<img src = ${message.image.url} >`:"";
       let html = `<div class = "main_center_thread" data-message-id="${message.id}">
                     <div class ="main_center_thread_upper-message">
                       <div class ="main_center_thread_upper-message_name">
