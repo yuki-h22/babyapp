@@ -1,8 +1,0 @@
-herokuデプロイ時の調整ファイル
-  <%= form_for @group do |form| %>
-    <%= form.label :"おなまえ" %> 
-      <%= form.text_field :name %>
-    <%= form.label :"お誕生日" %>
-      <%= form.text_area :birthday%>
-    <%= form.submit %>
-  <% end %>
