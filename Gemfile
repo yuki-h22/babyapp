@@ -71,3 +71,4 @@ gem "mini_magick"
 gem 'pry-rails'
 gem "font-awesome-rails"
 gem 'fog-aws'
+gem "aws-sdk-s3", require: false
