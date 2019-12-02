@@ -1,3 +1,4 @@
+herokuデプロイ時の調整ファイル
   <%= form_for @group do |form| %>
     <%= form.label :"おなまえ" %> 
       <%= form.text_field :name %>
@@ -21,3 +22,4 @@
         = f.label :text, class: "group_edit_btn" do
           = link_to edit_group_path(@group), class: "chat_edit_btn" do
             Edit
+
