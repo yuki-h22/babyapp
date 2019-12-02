@@ -42,10 +42,21 @@
   left: 20px;
 }
 
+.selectpage{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  &_message{
+    font-size: 50px;
+  }
+}
+
+
 #error_photo{
   position: relative;
-  width: 300px;
+  width: 600px;
   left: 20px;
+
 }
 
 
