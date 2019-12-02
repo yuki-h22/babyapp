@@ -42,13 +42,11 @@ $(function(){
       $('.form__submit').prop('disabled', false);
       $('form')[0].reset();
     })
-
     .fail(function(){
       alert('入力エラー:\nメッセージ送信に失敗しました');
     })
     return false;
   });
-
 //   var reloadMessages = function() {
 //     //カスタムデータ属性を利用し、ブラウザに表示されている最新メッセージのidを取得
 //       var last_message_id = $('.main_center_thread:last').data("message-id");
